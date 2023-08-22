@@ -1,0 +1,177 @@
+@media screen and (min-width: 700px) {
+  nav {
+    height: 100px;
+  }
+
+  .left {
+    left: 15px;
+    top: 10px;
+  }
+
+  .right {
+    right: 30px;
+    top: 35px;
+  }
+
+  .right li a {
+    font-size: 20px;
+  }
+
+  .cas {
+    font-size: 1.5rem;
+    padding: 10px 40px;
+    left: 20px;
+  }
+
+  .picture {
+    font-size: 15px;
+  }
+
+  .container {
+    width: 135px;
+    padding: 10px;
+    gap: 1px;
+    padding: 10px 20px;
+    padding-left: 30px;
+  }
+
+  .picture div {
+    font-size: 10px;
+  }
+
+  .picture:hover span {
+    font-size: 10px;
+  }
+
+  .picture:hover div {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  nav {
+    height: 100px;
+  }
+
+  .left {
+    left: 20px;
+    top: 15px;
+  }
+
+  .left img{
+    width: 12vw;
+  }
+
+  .right {
+    right: 35px;
+    top: 40px;
+  }
+
+  .right ul{
+    gap: 3rem
+  }
+
+  .right li a {
+    font-size: 30px;
+  }
+
+  .cas {
+    font-size: 2rem;
+    padding: 10px 50px;
+    left: 20px;
+  }
+
+  .cast-cont{
+    top: 30px;
+    justify-content: space-evenly;
+    gap: 2px;
+  }
+
+  .picture {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    width: 190px;
+    gap: 5px;
+    padding: 15px 25px;
+    padding-left: 35px;
+    left: -30px;
+  }
+
+  .picture div {
+    font-size: 0.8rem;
+  }
+
+  .picture:hover span {
+    font-size: 0.8rem;
+  }
+
+  .picture:hover div {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  nav {
+    height: 150px;
+  }
+
+  .left {
+    left: 25px;
+    top: 20px;
+  }
+
+  .left img{
+    width: 11vw;
+  }
+
+  .right {
+    right: 40px;
+    top: 40px;
+  }
+
+  .right ul{
+    gap: 3.5rem
+  }
+
+  .right li a {
+    font-size: 30px;
+  }
+
+  .cas {
+    font-size: 2.5rem;
+    padding: 10px 50px;
+    left: 20px;
+    top: -50px;
+  }
+
+  .cast-cont{
+    top: 30px;
+    justify-content: space-evenly;
+    gap: 2px;
+  }
+
+  .picture {
+    font-size: 1.9rem;
+  }
+
+  .container {
+    width: 250px;
+    gap: 1px;
+    padding: 30px 25px;
+    padding-left: 30px;
+  }
+
+  .picture div {
+    font-size: 1rem;
+  }
+
+  .picture:hover span {
+    font-size: 1rem;
+  }
+
+  .picture:hover div {
+    font-size: 1.9rem;
+  }
+}

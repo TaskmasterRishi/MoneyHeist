@@ -1,0 +1,342 @@
+@media screen and (min-width: 576px) {
+    .po1{
+        top:-40px;
+    }
+
+    .left figcaption{
+        font-size: 1rem;
+        padding: 1rem 0.5rem;
+    }
+
+    .cc{
+        font-size: 1.2rem;
+    }
+
+    .cast img{
+        width: 40px;
+    }
+
+    .cast p{
+        font-size: 0.7rem;
+    }
+
+    .cast span{
+        font-size: 0.5rem
+    }
+
+    .cast p:hover{
+        font-size: 0.5rem;
+    }
+
+    .cast span:hover{
+        font-size: 0.7rem;
+    }
+
+    .sa a{
+        font-size: 1rem;
+        padding: 8px 12px;
+    }
+
+    .center{
+        top: -30px;
+    }
+
+    .center h1{
+        font-size: 2rem;
+    }
+
+    .se{
+        font-size: 1rem;
+    }
+
+    .title{
+        font-size: 1rem;
+    }
+
+    .wbs{
+        gap: 1.5rem
+    }
+
+    .button1{
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
+    .bookmark-btn{
+        padding: 10px 10px;
+    }
+
+    .share-btn{
+        padding: 10px 10px;
+    }
+
+    .details-tab th{
+        font-size: 1.4rem;
+        text-align: left;
+    }
+    
+    .details-tab td{
+        font-size: 1.2rem;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .po1{
+        top:-40px;
+    }
+
+    .left figcaption{
+        font-size: 1.5rem;
+        padding: 1rem 0.5rem;
+    }
+
+    .cc{
+        font-size: 1.6rem;
+        padding-top: 10px;
+    }
+
+    .cast img{
+        width: 60px;
+    }
+
+    .cast p{
+        font-size: 1.1rem;
+    }
+
+    .cast span{
+        font-size: 0.9rem;
+    }
+
+    .cast p:hover{
+        font-size: 1.1rem;
+    }
+
+    .cast span:hover{
+        font-size: 0.9rem;
+    }
+
+    .sa a{
+        font-size: 1.2rem;
+        padding: 9px 12px;
+    }
+
+    .center{
+        top: -30px;
+    }
+
+    .center h1{
+        font-size: 3rem;
+    }
+
+    .se{
+        font-size: 1.5rem;
+    }
+
+    .title{
+        font-size: 1.2rem;
+    }
+
+    .wbs{
+        gap: 1.5rem
+    }
+
+    .button1{
+        padding: 10px 20px;
+        font-size: 1.5rem;
+    }
+
+    .bookmark-btn{
+        padding: 15px 15px;
+    }
+
+    .bookmark-btn svg{
+        width: 20px 20px;
+    }
+
+    .share-btn{
+        padding: 15px 15px;
+    }
+
+    .details-tab th{
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    
+    .details-tab td{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .po1{
+        top:-40px;
+    }
+
+    .left figcaption{
+        font-size: 1.5rem;
+        padding: 1rem 0.5rem;
+    }
+
+    .cc{
+        font-size: 1.7rem;
+    }
+
+    .cast img{
+        width: 60px;
+    }
+
+    .cast p{
+        font-size: 1.3rem;
+    }
+
+    .cast span{
+        font-size: 0.9rem
+    }
+
+    .cast p:hover{
+        font-size: 0.9rem;
+    }
+
+    .cast span:hover{
+        font-size: 1.3rem;
+    }
+
+    .sa a{
+        font-size: 1.3rem;
+        padding: 8px 12px;
+    }
+
+    .center{
+        top: -30px;
+    }
+
+    .center h1{
+        font-size: 3rem;
+    }
+
+    .se{
+        font-size: 1.5rem;
+    }
+
+    .title{
+        font-size: 1.2rem;
+    }
+
+    .wbs{
+        gap: 1.5rem
+    }
+
+    .button1{
+        padding: 10px 20px;
+        font-size: 1.5rem;
+    }
+
+    .bookmark-btn{
+        padding: 15px 15px;
+    }
+
+    .bookmark-btn svg{
+        width: 20px 20px;
+    }
+
+    .share-btn{
+        padding: 15px 15px;
+    }
+
+    .details-tab th{
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    
+    .details-tab td{
+        font-size: 1.2rem;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .po1{
+        top:-50px;
+    }
+
+    .left figcaption{
+        font-size: 1.5rem;
+        padding: 1rem 0.5rem;
+    }
+
+    .cc{
+        font-size: 1.7rem;
+    }
+
+    .cast img{
+        width: 60px;
+    }
+
+    .cast p{
+        font-size: 1.3rem;
+    }
+
+    .cast span{
+        font-size: 0.9rem
+    }
+
+    .cast p:hover{
+        font-size: 0.9rem;
+    }
+
+    .cast span:hover{
+        font-size: 1.3rem;
+    }
+
+    .sa a{
+        font-size: 1.3rem;
+        padding: 8px 12px;
+    }
+
+    .center{
+        top: -40px;
+    }
+
+    .center h1{
+        font-size: 4rem;
+    }
+
+    .se{
+        font-size: 1.5rem;
+    }
+
+    .title{
+        font-size: 1.2rem;
+    }
+
+    .wbs{
+        gap: 1.5rem
+    }
+
+    .button1{
+        padding: 10px 20px;
+        font-size: 1.5rem;
+    }
+
+    .bookmark-btn{
+        padding: 15px 15px;
+    }
+
+    .bookmark-btn svg{
+        width: 20px 20px;
+    }
+
+    .share-btn{
+        padding: 15px 15px;
+    }
+
+    .details-tab th{
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    
+    .details-tab td{
+        font-size: 1.2rem;
+    }
+}

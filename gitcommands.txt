@@ -1,0 +1,17 @@
+Terminal command for changing in git
+
+git remote add origin https://github.com/<your repository>
+git commit -m "your commit"
+git branch -M <branch>
+git push -u origin <branch>
+
+for creating new repository using git
+
+git config --global user.name "<your name>"
+git config --global user.email "<your name>"
+git init
+git add .
+git commit -m "First commit"
+git branch -M <branch>
+git remote add origin https://github.com/<your repository>
+git push -u origin <branch>

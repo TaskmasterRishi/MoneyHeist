@@ -1,0 +1,286 @@
+@font-face {
+    font-family: font1;
+    src: url('font/Lumberjack/Lumberjack.otf');
+}
+@font-face {
+    font-family: font2;
+    src: url('font/roboto-condensed/RobotoCondensed-Regular.ttf');
+}
+
+/*||Display Reset||*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    background-color: #161A1D;
+    position: relative;
+    min-height: 190vh;
+}
+
+.bg1{
+    display: flex;
+    z-index: 1;
+}
+
+.bg1 figcaption{
+    position: absolute;
+    left: -1000px;
+}
+
+main{
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.structure{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(10 , 1fr);
+    grid-auto-rows: auto auto;
+    grid-template-areas: 
+        "po po po ce ce ce ce ce ce ce"
+        "po po po ce ce ce ce ce ce ce"
+    ;
+}
+
+.empty{
+    grid-area: em;
+}
+
+.left{
+    position: absolute;
+    left: 6%;
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: font2;
+    color: white;
+    font-size: 0.5rem;
+}
+
+.left figcaption{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+    padding: 0.5rem 0.2rem;
+    font-size: 0.5rem;
+    color: white;
+    text-align: center;
+    background-color: hsla(204, 6%, 17%, 0.5);
+    border-radius: 50px;
+}
+
+.pos1{
+    width: 19vw;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.po1{
+    grid-area: po;
+    position: absolute;
+    top:-20px;
+}
+
+.cast{
+    padding-top: 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 5px;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cast img{
+    width: 25px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.cast p{
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: 0.4rem;
+    color: whitesmoke;
+}
+
+.cast span{
+    display: block;
+    font-size: 0.3rem;
+    color: rgb(175, 173, 173);
+}
+
+.cast p:hover{
+    flex-flow: column-reverse nowrap;
+    font-size: 0.3rem;
+    color: rgb(175, 173, 173);
+}
+
+.cast span:hover{
+    font-size: 0.4rem;
+    order: 1;
+    color: white;
+}
+
+.cc{
+    font-size: 0.7rem;
+}
+
+.sa a{
+    display: block;
+    font-family: font2;
+    text-align  : center;
+    font-size: 0.5rem;
+    color: #ff515a;
+    text-decoration: none;
+    background-color: hsla(204, 6%, 17%, 0.5);
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.sa a:visited, .sa a:active{
+    color: #FF515A;
+} 
+
+.sa a:hover{
+    color: white;
+    background-color: transparent;
+}
+
+.center {
+    grid-area: ce;
+    position: absolute;
+    top: -10px;
+    color: whitesmoke;
+    font-family: font2;
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: 0.6rem;
+}
+
+.center h1{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    font-family: font1;
+}
+
+.title{
+    font-size: 0.5rem;
+    color: rgb(200, 200, 200);
+    font-family: font2;
+    text-align: justify;
+    padding-right: 10%;
+}
+
+.wbs{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 1rem;
+}
+.button1{
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #FF515A;
+    color: whitesmoke;
+    font-size: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.button1:hover{
+    background-color: white;
+    color: #FF515A;
+}
+
+.bookmark-btn{
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    padding: 6px 6px;
+    background-color: transparent;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 2px solid white;
+    transition: background-color 0.3s;
+}
+
+.bookmark-btn:hover{
+    background-color: #FF515A;
+    border: 2px solid white;
+}
+
+.bookmark-btn.bookmarked{
+    background-color: white;
+    color: #FF515A;
+    border: 2px solid #FF515A;
+}
+
+.bookmark-btn i{
+    margin-right: 8px;
+}
+
+.share-btn{
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    padding: 6px 6px;
+    background-color: transparent;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 2px solid white;
+    transition: background-color 0.3s;
+}
+
+
+.details-tab{
+    grid-area: ta;
+    border-collapse: collapse;
+    position: relative;
+}
+
+.details-tab th{
+    text-align: left;
+    padding-left: 4px;
+}
+
+.details-tab td{
+    font-size: 8px;
+    padding: 5px;
+    border-bottom: 2px solid #454E4F;
+}
+
+.details-tab ul{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 8px
+}
+
+.details-tab li{
+    text-decoration: none;
+    list-style: none;
+    background-color: #454E4F;
+    padding: 2px 8px;
+    border-radius: 50px;
+}

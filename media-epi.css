@@ -1,0 +1,68 @@
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 576px) {
+  main {
+    width: 100%;
+  }
+
+  nav {
+    margin: 0px 5px;
+    margin-left: 10px;
+    height: 50px;
+  }
+
+  .left {
+    top: 0;
+  }
+
+  .left img {
+    width: 70px;
+  }
+
+  .right ul {
+    top: 0;
+    gap: 0.4rem;
+    right: 0;
+  }
+
+  .right li a {
+    font-size: 0.4rem;
+  }
+
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+
+  .mySlides{
+    width: 100%;
+  }
+
+  .slideshow-container {
+    width: 100vw;
+  }
+
+  .dot {
+    position: relative;
+    height: 5px;
+    width: 10px;
+    top: -40px;
+  }
+
+  .seasons {
+    scroll-margin-top: 1rem;
+  }
+
+  .container {
+    gap: 0.6rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .prev,
+  .next,
+  .text {
+    font-size: 14px;
+  }
+}

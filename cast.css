@@ -1,0 +1,269 @@
+@font-face {
+  font-family: font1;
+  src: url("font/Lumberjack/Lumberjack.otf");
+}
+
+@font-face {
+  font-family: font2;
+  src: url("font/roboto-condensed/RobotoCondensed-Regular.ttf");
+}
+
+@font-face {
+  font-family: font3;
+  src: url("font/neon-future-2-0/Neon\ Future\ 2.txt");
+}
+
+@font-face {
+  font-family: font4;
+  src: url("font/nasalization-free/nasalization-rg.otf");
+}
+
+@font-face {
+  font-family: font5;
+  src: url("font/beyond-wonderland/Beyond\ Wonderland.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: #161a1d;
+  color: whitesmoke;
+  min-height: 100vh;
+  overflow-x: hidden;
+  min-height: 200vh;
+}
+
+header {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+nav {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 1s;
+  position: relative;
+}
+
+.left {
+    position: absolute;
+  left: 10px;
+}
+
+.left img {
+  width: 17vw;
+}
+
+.right{
+    position: absolute;
+    right: 10px;
+}
+
+.right ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.right li {
+  list-style: none;
+  font-family: font4;
+}
+
+.right li a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+
+.right a:hover {
+  color: #ff515a;
+}
+
+main {
+  position: relative;
+}
+
+.back2 figcaption {
+  position: absolute;
+  left: -1000px;
+}
+
+.cast-cont {
+  position: relative;
+  top: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.cas {
+  font-family: font1;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  padding: 5px 20px;
+  position: absolute;
+  top: -20px;
+  display: inline;
+  background-color: hsla(186, 7%, 29%, 0.15);
+  border-radius: 50px;
+}
+
+.cast {
+  position: relative;
+  margin: 0;
+  top: 0;
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 1.2rem;
+}
+
+.picture {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  font-size: 10px;
+  margin-top: 1.9rem;
+}
+
+.picture img {
+  width: 12vw;
+  height: auto;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  border: 2px solid white;
+}
+
+.container {
+  display: flex;
+  width: 100px;
+  flex-flow: column nowrap;
+  background-color: hsla(186, 7%, 29%, 0.4);
+  align-items: center;
+  padding: 5px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  padding-left: 15px;
+  position: relative;
+  left: -20px;
+  z-index: -1;
+  border: 1px solid white;
+}
+
+.picture div {
+  font-size: 5px;
+  color: #b7b9b9;
+}
+
+.picture:hover span {
+  font-size: 5px;
+  order: 1;
+  color: #b7b9b9;
+  text-align: center;
+}
+
+.picture:hover div {
+  font-size: 10px;
+  color: white;
+}
+
+.nowarp {
+  white-space: nowrap;
+}
+
+.image-hover {
+  transition: all 2s ease;
+}
+
+.prof:hover img {
+  content: url("images/pro.png");
+}
+
+.tokyo:hover img {
+  content: url("images/tokya1.jpg");
+}
+
+.berlin:hover img {
+  content: url("images/berlin.jpg");
+}
+
+.raquel:hover img {
+  content: url("images/raquel1.png");
+}
+
+.nairobi:hover img {
+  content: url("images/nairobi1.jpg");
+}
+
+.rio:hover img {
+  content: url("images/rio1.png");
+}
+
+.denver:hover img {
+  content: url("images/denver1.jpg");
+}
+
+.monica:hover img {
+  content: url("images/monica1.jpg");
+}
+
+.helsinki:hover img {
+  content: url("images/helsinki1.jpg");
+}
+
+.alison:hover img {
+  content: url("images/alison1.jpg");
+}
+
+.arturo:hover img {
+  content: url("images/aeturo.1jpg.png");
+}
+
+.moscow:hover img {
+  content: url("images/moscow1.jpg");
+}
+
+#backToTopButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #9f9f9f;
+  color: #222121;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#backToTopButton i {
+  font-size: 20px;
+}
+
+#backToTopButton:hover {
+  background-color: #555555;
+}
